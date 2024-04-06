@@ -4,10 +4,18 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>DictionaryValueEquals</Title>
+        <Description>Extension method for Dictionary that compares it to another dictionary by value (works for arbitrarily nested dictionaries)</Description>
+        <Version>1.0.1</Version>
+        <PackageProjectUrl>https://github.com/chris-pie/EquatableDictionary</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/chris-pie/EquatableDictionary</RepositoryUrl>
+        <PackageTags>dictionary</PackageTags>
     </PropertyGroup>
-
+    
     <ItemGroup>
-        <ProjectReference Include="..\DictionaryValueEqualityComparer\DictionaryValueEqualityComparer.csproj"/>
+      <ProjectReference Include="..\DictionaryValueEqualityComparer\DictionaryValueEqualityComparer.csproj" />
     </ItemGroup>
 
 </Project>
